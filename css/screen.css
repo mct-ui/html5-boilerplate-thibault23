@@ -1,3 +1,32 @@
-body {
-  background: khaki;
+/*
+    Elements: Page
+    ---
+    Default markup for page level elements
+*/
+
+html {
+  font-size: 16px;
+  list-style: 1.5;
+  font-family:"helvetica Neue", helvetica, arial, sans-serif;
+  color:#111;
+  padd: 24px 24px 0;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+  back: #E85E00;
+  color:white;
+  text-shadow:none;
+}
+
+::selection {
+  back: #E85E00;
+  color:white;
+  text-shadow:none;
 }
