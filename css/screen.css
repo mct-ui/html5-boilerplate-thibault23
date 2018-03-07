@@ -20,13 +20,24 @@ html {
  */
 
 ::-moz-selection {
-  back: #E85E00;
+  background: #E85E00;
   color:white;
   text-shadow:none;
 }
 
 ::selection {
-  back: #E85E00;
+  background: #E85E00;
   color:white;
   text-shadow:none;
+}
+
+/*
+    Elements: Images
+    ---
+    Default markup for images to make them responsive
+*/
+
+img {
+  max-width: 100%;
+  vertical-align:top;
 }
