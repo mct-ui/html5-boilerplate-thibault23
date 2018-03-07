@@ -62,7 +62,9 @@ figure {
 }
 
 ul,
-ol,
+ol {
+  padding-left: 24px;
+}
 blockquote {
   font-style: italic;
   font-size: 23px;
@@ -73,7 +75,7 @@ blockquote {
 
 li ul,
 li ol{
-
+  margin-bottom: 0;
 }
 
 blockquote *{
@@ -89,7 +91,10 @@ figcaption {
 }
 
 hr {
-
+  border: 0;
+  height:1px;
+  background: lightgrey;
+  margin: 0 0 24px;
 }
 
 a {
